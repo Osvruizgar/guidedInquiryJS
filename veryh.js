@@ -10,17 +10,24 @@ if (selectedOperator == "+") {
         console.log(firstNum + secondNum);
     };
     add(Number(firstNum), Number(secondNum));
-
+}
+else if (selectedOperator == "-") {
+     function subtract(firstNum, secondNum) {
+         console.log(firstNum - secondNum);
+     };
+     subtract(Number(firstNum), Number(secondNum));
 }
 
-// function subtract(bobby, dan) {
-//     console.log(bobby - dan);
-// };
-
-// function multiply(water, bottle) {
-//     console.log(water * bottle);
-// };
-
-// function divide(java, script) {
-//     console.log(java / script);
-// };
+else if (selectedOperator == "*") {
+    function multiple(firstNum, secondNum) {
+        console.log(firstNum * secondNum);
+    };
+    multiple(Number(firstNum), Number(secondNum));
+} else if (selectedOperator == "/") {
+    function divide(firstNum, secondNum) {
+        console.log(firstNum / secondNum);
+    };
+    divide(Number(firstNum), Number(secondNum));
+} else{
+    alert("please make sure you are selecting the correct numbers and operations")
+};
