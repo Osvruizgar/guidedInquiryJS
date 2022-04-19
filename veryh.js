@@ -3,31 +3,34 @@ alert("this calculator is based on prompts.");
 let firstNum = prompt("pick a number from 0-9");
 let selectedOperator = prompt("select one of the operators: + - * /");
 let secondNum = prompt("select your second Number 0-9");
+let total;
 
 if (selectedOperator == "+") {
-    
     function add(firstNum, secondNum) {
         console.log(firstNum + secondNum);
     };
     add(Number(firstNum), Number(secondNum));
+    alert(`${firstNum} + ${secondNum} = ${Number(firstNum) + Number(secondNum)}`);
 }
 else if (selectedOperator == "-") {
      function subtract(firstNum, secondNum) {
          console.log(firstNum - secondNum);
-     };
-     subtract(Number(firstNum), Number(secondNum));
+        };
+        subtract(Number(firstNum), Number(secondNum));
+        alert(`${firstNum} - ${secondNum} = ${Number(firstNum) - Number(secondNum)}`);
 }
-
 else if (selectedOperator == "*") {
     function multiple(firstNum, secondNum) {
         console.log(firstNum * secondNum);
     };
     multiple(Number(firstNum), Number(secondNum));
+    alert(`${firstNum} * ${secondNum} = ${Number(firstNum) * Number(secondNum)}`);
 } else if (selectedOperator == "/") {
     function divide(firstNum, secondNum) {
         console.log(firstNum / secondNum);
     };
     divide(Number(firstNum), Number(secondNum));
+    alert(`${firstNum} / ${secondNum} = ${Number(firstNum) / Number(secondNum)}`);
 } else{
-    alert("please make sure you are selecting the correct numbers and operations")
+    alert("please make sure you are selecting the correct numbers and operations");
 };
