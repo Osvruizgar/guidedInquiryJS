@@ -37,14 +37,33 @@ else if (selectedOperator == "/") {
 }
 
 // code mentor taught me below
+
 //let total;
 // 
 // function add(first, second) {
 //     return first + second;
 // };
+// function subtact(first, second) {
+//     return first - second;
+// };
+// function multiple(first, second) {
+//     return first * second;
+// };
+// function divide(first, second) {
+//     return first / second;
+// };
 // if (selectedOperator == "+") {  
 //   total = add(Number(firstNum), Number(secondNum));
 //   alert(`${firstNum} + ${secondNum} = ${total}`);
+// }else if (selectedOperator == "-") {  
+//   total = subtract(Number(firstNum), Number(secondNum));
+//   alert(`${firstNum} - ${secondNum} = ${total}`);
+// }// }else if (selectedOperator == "*") {  
+//   total = multiple(Number(firstNum), Number(secondNum));
+//   alert(`${firstNum} * ${secondNum} = ${total}`);
+// }// }else if (selectedOperator == "/") {  
+//   total = divide(Number(firstNum), Number(secondNum));
+//   alert(`${firstNum} / ${secondNum} = ${total}`);
 // }
 
 //old code below
